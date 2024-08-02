@@ -6,7 +6,7 @@ body {
     background-color: #525a61;
 }
 
-.form {
+.loginform {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -19,12 +19,12 @@ body {
     transition: .4s ease-in-out;
 }
 
-.form:hover {
+.loginform:hover {
     transform: scale(1.05);
     border: 1px solid black;
 }
 
-#heading {
+#loginheading {
     text-align: center;
     margin: 2em;
     color: rgb(255, 255, 255);
